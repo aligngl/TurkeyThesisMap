@@ -1,2 +1,7 @@
 # TurkeyThesisMap
-TÜİK online verileriyle QGIS içinde il/ilçe bazlı beşeri coğrafya, tarım, sanayi, nüfus, göç, eğitim, çevre ve ulaşım koroplet haritaları üreten; hazır şablonlar, GADM sınırları, layout, lejant ve rapor desteği sunan bağımsız QGIS eklentisi.
+
+Kapsamlı README dosyası eklenti klasörünün içindedir:
+
+[TurkeyThesisMap/README.md](TurkeyThesisMap/README.md)
+
+GitHub'a proje kök klasörü yüklendiğinde bu dosya yönlendirme görevi görür. Eklenti klasörü tek başına repo olarak yüklenecekse `TurkeyThesisMap/README.md` doğrudan GitHub ana README dosyası olarak kullanılabilir.
