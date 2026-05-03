@@ -8,6 +8,7 @@ Eklenti, QGIS'in kendi Python ortamı ile çalışacak şekilde tasarlanmıştı
 
 - [Öne çıkan özellikler](#öne-çıkan-özellikler)
 - [Kimler için?](#kimler-için)
+- [QGIS sürüm uyumluluğu](#qgis-sürüm-uyumluluğu)
 - [Kurulum](#kurulum)
 - [QGIS içinde eklentiye erişim](#qgis-içinde-eklentiye-erişim)
 - [Hızlı kullanım akışı](#hızlı-kullanım-akışı)
@@ -45,6 +46,14 @@ Bu eklenti özellikle:
 - Rapor, ödev, makale, sunum veya saha çalışması için hızlı koroplet harita üretmek isteyen kişiler
 
 için hazırlanmıştır.
+
+## QGIS sürüm uyumluluğu
+
+Eklentinin metadata bilgisinde minimum QGIS sürümü `3.16` olarak tanımlıdır. Bununla birlikte eklenti; TÜİK online veri çekme, PyQt arayüzü, QGIS layout araçları, lejant, ölçek, kuzey oku, konum haritası ve dışa aktarma özelliklerini birlikte kullandığı için güncel bir QGIS 3.x LTR veya daha yeni QGIS 3.x sürümüyle kullanılması önerilir.
+
+Eski QGIS sürümlerinde eklenti kurulsa bile bazı arayüz, layout veya dışa aktarma davranışları farklı çalışabilir. Hata alınırsa önce QGIS sürümünün güncel olup olmadığı kontrol edilmelidir.
+
+Öneri: mümkünse QGIS'in güncel LTR sürümünü kullanın. Çok eski QGIS 3.x sürümlerinde alınan hatalar eklentiden değil, QGIS API veya layout davranışı farklarından kaynaklanabilir.
 
 ## Kurulum
 
